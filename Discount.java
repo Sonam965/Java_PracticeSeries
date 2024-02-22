@@ -9,7 +9,9 @@ class Discount{
 		if(s == 'y'){
 			if(costPrice >=500){
 				int discount = (costPrice* 10)/100;
+				int netPrice = costPrice - discount;
 				System.out.println("Your total Discount is " + discount);
+				System.out.println("Your NetPrice is = " + netPrice);
 			} else{
 				int d = (costPrice *5)/100;
 				System.out.println("Your total Discount is " + d);
