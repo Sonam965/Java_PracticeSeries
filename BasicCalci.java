@@ -4,14 +4,16 @@ class BasicCalci {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter any two values ");
 		while(true){
+		System.out.print("Enter 1st Number: ");
 		int a = sc.nextInt();
+		System.out.print("Enter 2nd Number ");
 		int b = sc.nextInt();
 		System.out.println("1: Addition");
 		System.out.println("2: Subtraction");
 		System.out.println("3: Multiplcation");
 		System.out.println("4: Division");
 		System.out.println("5: Exit");
-		System.out.println("Select any choice");
+		System.out.print("Select any choice :");
 		int n = sc.nextInt();
 		switch(n){
 		case 1: 

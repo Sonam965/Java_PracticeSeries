@@ -5,10 +5,9 @@ class Week{
 		System.out.println("Enter weekdays ");
 		String days = sc.next().toLowerCase();
 		if(days.equals("sunday") || days.equals("saturday")){
-			System.out.println("Print WeekEnds");
+			System.out.println("WeekEnd");
 		} else {
-			System.out.println("Print WeekDays");
-
+			System.out.println("WeekDays");
 		}
 	}
 }

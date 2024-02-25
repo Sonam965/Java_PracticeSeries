@@ -5,14 +5,14 @@ class LeapYear{
 		System.out.println("Enter year");
 		int year = sc.nextInt();
 		if ( year == 0 || year <0){
-			System.out.println("Enter a valid year")
+			System.out.println("Enter a valid year");
 		}
 		if (year % 100!=0){
 			if (year%4 ==0){
-				System.out.println("Leap Year");
+				System.out.println("Leap   Year");
 			}
 			else {
-				System.out.println(" Not Leap Year");
+				System.out.println(" Not  a Leap Year");
 
 			} }else {
 				if (year% 400 ==0){
